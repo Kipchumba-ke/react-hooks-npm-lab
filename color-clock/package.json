@@ -1,0 +1,26 @@
+{
+  "name": "color-clock",
+  "version": "1.0.0",
+  "description": "react hooks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Hello World!'",
+    "start": "serve",
+    "build": "esbuild index.js --bundle --outfile=dist/out.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Kipchumba-ke/react-hooks-npm-lab.git"
+  },
+  "author": "Kipchumba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kipchumba-ke/react-hooks-npm-lab/issues"
+  },
+  "homepage": "https://github.com/Kipchumba-ke/react-hooks-npm-lab#readme",
+  "dependencies": {
+    "date-fns": "^2.30.0",
+    "esbuild": "^0.24.0",
+    "serve": "^14.2.4"
+  }
+}
